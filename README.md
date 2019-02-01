@@ -12,3 +12,8 @@
 
 1. In a CMD with the virtual enviroment running. Type "pip freeze"
 2. Copy the displayed text and paste it on "requirements.txt"
+
+## Current functionalities
+
+List images: http://127.0.0.1:8000/gallery/
+Add image: http://127.0.0.1:8000/gallery/add/
