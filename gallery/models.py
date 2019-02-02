@@ -9,6 +9,7 @@ class Image(models.Model):
     url = models.CharField(max_length=1000)
     description = models.CharField(max_length=1000, null=True)
     type = models.CharField(max_length=5, blank=True)
+    imageFile = models.ImageField(upload_to='images', null=True)
 
     def __str__(self):
         return 'Image: ' + self.name
@@ -17,4 +18,4 @@ class Image(models.Model):
 class ImageForm(ModelForm):
     class Meta:
         model = Image
-        fields = ['name', 'url', 'description', 'type']
+        fields = ['name', 'url', 'description', 'type', 'imageFile']
