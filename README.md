@@ -33,8 +33,7 @@ DATABASES = {
 
 ## Running the app
 
-1. Open a CMD and type "git checkout inception" to change the branch
-2. On the root folder use a CMD to execute:
+On the root folder use a CMD to execute:
 
    Windows: "virtualenv env && env\Scripts\activate.bat && pip install -r requirements.txt"
 
