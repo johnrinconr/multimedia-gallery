@@ -1,5 +1,10 @@
 # multimedia-gallery
 
+## Cloning and preparing
+
+1) Clone the repository
+2) Open the root folder on a CMD and type "git update-index --skip-worktree multimediaGallery/settings.py"
+
 ## Connecting to the database in development mode
 
 1) Open the Heroku dashboard, select "multimedia-gallery" and go to "Resources".
