@@ -31,11 +31,16 @@ DATABASES = {
 
 4) Change NAME, USER, PASSWORD, HOST and PORT with the data displayed on point 1.2 
 
-## Running the app
+## Running the app for the first time
 
 On the root folder use a CMD to execute:
 
    Windows: "virtualenv env && env\Scripts\activate.bat && pip install -r requirements.txt"
+   
+## Running the app after other changes
+
+1) Run on a cmd the command "pip install -r requirements.txt"
+2) Run the app using "python manage.py runserver"
 
 ## Before uploading - If you add new modules or libraries
 
